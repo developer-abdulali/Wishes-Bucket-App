@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,6 +11,34 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  background-color: #4c9cfd;
+  padding: 40px 0px;
+  color: white;
+  font-size: 35px;
+}
+.wish{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.wish button{
+  border: none;
+  height: fit-content;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all .3s ease-out;
+}
+.wish button:hover{
+  transform: scale(1.2);
 }
 
 .App-header {
