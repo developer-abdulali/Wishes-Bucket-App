@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { WishContext } from '../context/WishProvider'
 
 export default function Navbar() {
-  return (
+    const [wishes, setWishes] = useContext(WishContext)
+    return (
     <nav className='navbar'>
         <div>Wish Bucket</div>
-        <div>Wishes: 3</div>
+        <div>Wishes: {wishes.length}</div>
     </nav>
   )
 }

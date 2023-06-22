@@ -18,7 +18,7 @@
   justify-content: space-around;  
   align-items: center;
   background-color: #4c9cfd;
-  padding: 40px 0px;
+  padding: 50px 0px;
   color: white;
   font-size: 35px;
 }
@@ -40,7 +40,25 @@
 .wish button:hover{
   transform: scale(1.2);
 }
+.addWish{
+  font-size: 20px;
+  width: 89%;
+  height: 76px;
+  border: none;
+  outline: none;
+  background-color: #d1d5db;
+  box-shadow: 1px 1px 5px #d1d5db;
 
+}
+.sbmt{
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  background-color: #4c9cfd;
+  font-size: 25px;
+  padding: 23px 38px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -1,15 +1,16 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import WishList from './components/WishList' ;
-import { WishProvider } from './context/WishProvider';
+import "./App.css";
+import AddWish from "./components/AddWish";
+import Navbar from "./components/Navbar";
+import WishList from "./components/WishList";
+import { WishProvider } from "./context/WishProvider";
 
 function App() {
   return (
     <div className="App">
       <WishProvider>
-        
-      <Navbar />
-    <WishList />
+        <Navbar />
+        <AddWish />
+        <WishList />
       </WishProvider>
     </div>
   );

@@ -14,6 +14,10 @@ export const WishProvider = ({children}) => {
         {
             id: 3,
             title: "Go a new Guinness world record"
+        },
+        {
+            id: 4,
+            title: "Go a new Guinness world record"
         }
     ];
     const [wishes, setWishes] = useState(data)
