@@ -47,13 +47,14 @@
   background-color: #4c9cfd;
   font-size: 25px;
   padding: 23px 38px;
+  cursor: pointer;
 }
 .btnIcon:hover{
   color: red;
 }
 
-/* for mobile responsive */
-@media only screen and (max-width: 600px) {
+
+@media (max-width: 1600px) {
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -63,20 +64,19 @@
     width: 100%;
   }
   .sbmt{
-    text-align: center;
     width: 100%;
+    text-align: center;
   }
 }
 
-/* for tablets responsive */
-@media only screen and (max-width: 768px) {
+@media (max-width: 1920px) {
   .navbar {
     display: flex;
     justify-content: space-around;
     font-size: 30px;
   }
   .addWish{
-    width: 100%;
+    width: 99%;
   }
   .sbmt{
     width: 100%;
