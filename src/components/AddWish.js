@@ -33,7 +33,7 @@ export default function AddWish() {
           onClick={addWish}
           type="submit"
           className="sbmt"
-          value="Add Task"
+          value="Add Wish"
         />
       </form>
     </div>
