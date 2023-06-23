@@ -48,3 +48,6 @@
   font-size: 25px;
   padding: 23px 38px;
 }
+.btnIcon:hover{
+  color: red;
+}
