@@ -51,3 +51,35 @@
 .btnIcon:hover{
   color: red;
 }
+
+/* for mobile responsive */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+  }
+  .addWish{
+    width: 100%;
+  }
+  .sbmt{
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* for tablets responsive */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+  }
+  .addWish{
+    width: 100%;
+  }
+  .sbmt{
+    width: 100%;
+    text-align: center;
+  }
+}
